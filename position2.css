@@ -1,0 +1,50 @@
+.main-container {
+    width: 100%;
+    border: 2px solid green;
+    padding: 10px;
+}
+
+/* First row container */
+.container1 {
+    width: 100%;
+    border: 2px solid red;
+    margin-bottom: 20px;
+    text-align: center; /* aligns inline-blocks properly */
+}
+
+/* Second row container */
+.container2 {
+    width: 100%;
+    border: 2px solid red;
+    text-align: center; /* aligns inline-blocks properly */
+}
+
+/* Cards in both rows */
+.type1, .type2, .type3, .type4,
+.child1, .child2, .child3, .child4 {
+    display: inline-block;
+    width: 23%;
+    margin: 1%;
+    vertical-align: top;
+    position: relative;
+    border: 2px solid blue; /* change to yellow for container2 if needed */
+}
+
+/* Image */
+img {
+    width: 100%;
+    display: block;
+}
+
+/* Heading inside image */
+h3 {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 14px;
+    margin: 0;
+    border-radius: 2px;
+}
