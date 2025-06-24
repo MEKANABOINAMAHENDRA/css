@@ -1,0 +1,10 @@
+.container{
+   border: 2px solid;
+   display: flex;
+   justify-content: space-between;
+   background-color: black;
+   color: white;
+}
+.item{
+    display: inline-block;
+}

@@ -1,0 +1,10 @@
+.container{
+    border: 2px solid;
+    display: flex;
+}
+.container1{
+    border: 2px solid red;
+}
+.container1{
+    border: 2px solid green;
+}
