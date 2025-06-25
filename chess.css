@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+
+.maincontainer{
+    width:800px;
+    height: 835px;
+    border: 2px solid;
+    display: flex;
+     flex-direction: column;
+    /* flex-direction: column; */
+}
+.row{
+    display: flex;
+}
+.item{
+    width: 149px;
+    height: 100px;
+    border: 2px solid;
+    display: flex;
+     text-align: center;
+      /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+/* .row:nth-child(even){
+    background-color:red;
+} */
+.row:nth-child(odd) .item:nth-child(even),.row:nth-child(even)  .item:nth-child(odd) {
+      background-color: red; /* or black */
+    }
+    /* .item-1{
+        font-size: 64px;
+   
+    } */
+p{
+    font-size: 32px;
+   
+   
+}
+
+   
