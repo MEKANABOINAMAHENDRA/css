@@ -1,0 +1,44 @@
+
+body{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 300px;
+    width: 500px;
+    /* border: 2px solid; */
+    background-color: brown;
+    position: relative;
+    
+}
+.container1{
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    margin-right: 50px;
+}
+p{
+ font-size: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 32px;
+}
+button {
+    text-align: center;
+    font-size: 22px;
+    background-color: green;
+    border-radius: 10px;
+    margin-left: 180px;
+}
+/* .container2{
+    text-align: center;
+} */
+ a{
+    font-size: 22px;
+    margin-left: 180px;
+    background-color: green;
+    border-radius: 10px;
+ }
